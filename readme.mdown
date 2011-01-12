@@ -1,0 +1,24 @@
+# MixFeed
+
+## Requirements
+* PHP 5 or higher
+
+and for SimplePie Library :
+
+* libxml2 (certain 2.7.x releases are too buggy for words, and will crash)
+* Either the iconv or mbstring extension
+* cURL or fsockopen()
+* PCRE support
+
+## Licence
+ In review but maybe [New BSD license](http://www.opensource.org/licenses/bsd-license.php)
+
+## Project Status
+MixFeed is provided 'as it' but can be maintained by Thibault Milan or community. Feel Free to help at [Github](https://github.com/clawfire/MIxFeed).
+
+## Roadmap
+This is the 1.0 version. Want to add many features as a file saving .rss to directly link and a page to call with cron to refresh it. Or a sort of better caching thant the built in SimplePie one.
+
+## Need support ?
+For bug reports and feature requests, visit:
+[http://github.com/clawfire/MIxFeed/issues](http://github.com/clawfire/MIxFeed/issues)
