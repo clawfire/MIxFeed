@@ -10,6 +10,13 @@ and for SimplePie Library :
 * cURL or fsockopen()
 * PCRE support
 
+## Installation
+
+1. Upload the content of the zip (without .git if you see it) to your webserver.
+2. Create a cache directory at the root of the script.
+3. Configure the script with editing config.ini (see config).
+4. Call MixFeed.php. All your feed are mixed up and sort.
+
 ## Licence
  In review but maybe [New BSD license](http://www.opensource.org/licenses/bsd-license.php)
 

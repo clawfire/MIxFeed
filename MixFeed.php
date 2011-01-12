@@ -21,12 +21,12 @@ echo '<?xml version="1.0" encoding="UTF-8"?>';
 ?>
 <rss version="2.00">
 <channel>
-<title>Les infos du réseau Tout-Metz.com</title>
-<link>http://www.tout-metz.com</link>
+<title><?php echo $config[feed_title];?></title>
+<link><?php echo $config[feed_refer_url];?></link>
 <description>
-Put your Description Here
+	<?php echo $config[feed_description];?>
 </description>
-<language>fr-fr</language>
+<language><?php echo $config[feed_language];?></language>
 <?php if ($loaded) {
 	$itemlimit=0;
 	foreach($feeds->get_items() as $item) {
